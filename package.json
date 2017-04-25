@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "test coverage for [data2xml (v1.2.5)](https://github.com/chilts/data2xml) [![npm package](https://img.shields.io/npm/v/npmtest-data2xml.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-data2xml) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-data2xml.svg)](https://travis-ci.org/npmtest/node-npmtest-data2xml)",
+    "description": "#### basic test coverage for  [data2xml (v1.2.5)](https://github.com/chilts/data2xml)  [![npm package](https://img.shields.io/npm/v/npmtest-data2xml.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-data2xml) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-data2xml.svg)](https://travis-ci.org/npmtest/node-npmtest-data2xml)",
     "devDependencies": {
         "data2xml": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",

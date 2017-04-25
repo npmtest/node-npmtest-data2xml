@@ -1,4 +1,7 @@
-# test coverage for  [data2xml (v1.2.5)](https://github.com/chilts/data2xml)  [![npm package](https://img.shields.io/npm/v/npmtest-data2xml.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-data2xml) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-data2xml.svg)](https://travis-ci.org/npmtest/node-npmtest-data2xml)
+# npmtest-data2xml
+
+#### basic test coverage for  [data2xml (v1.2.5)](https://github.com/chilts/data2xml)  [![npm package](https://img.shields.io/npm/v/npmtest-data2xml.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-data2xml) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-data2xml.svg)](https://travis-ci.org/npmtest/node-npmtest-data2xml)
+
 #### A data to XML converter with a nice interface (for NodeJS).
 
 [![NPM](https://nodei.co/npm/data2xml.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/data2xml)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-data2xml/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-data2xml/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-data2xml/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-data2xml/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-data2xml/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-data2xml/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-data2xml/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-data2xml/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-data2xml/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-data2xml/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-data2xml/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-data2xml/build/coverage.html/index.html)
 
@@ -77,7 +80,8 @@
     "scripts": {
         "test": "set -e; for FILE in test/*.js; do node $FILE; done"
     },
-    "version": "1.2.5"
+    "version": "1.2.5",
+    "bin": {}
 }
 ```
 
